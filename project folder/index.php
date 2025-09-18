@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            padding: 0.5rem 2rem;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 2rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Home Page</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <h2></h2>
+        <p></p>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
